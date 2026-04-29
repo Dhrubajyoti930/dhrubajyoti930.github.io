@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" 
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+    xmlns:media="http://search.yahoo.com/mrss/"
+    xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+<channel>
+    <title>Dhrubajyoti | Global 3D Engineering &amp; Computational Systems</title>
+    <atom:link href="https://dhrubajyoti930.github.io/master-feed.xml" rel="self" type="application/rss+xml" />
+    <link>https://dhrubajyoti930.github.io/</link>
+    <description>The definitive technical repository for high-performance WebGL, procedural physics, and 3D web graphics by Dhrubajyoti.</description>
+    <lastBuildDate>Wed, 29 Apr 2026 19:40:00 +0530</lastBuildDate>
+    <language>en-IN</language>
+    <copyright>Copyright 2026 Dhrubajyoti. All Rights Reserved.</copyright>
+
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
+    <itunes:category text="Technology" />
+    <itunes:explicit>no</itunes:explicit>
+
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://dhrubajyoti930.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://dhrubajyoti930.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://dhrubajyoti930.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://dhrubajyoti930.github.io/"/>
+
+    <image>
+        <url>https://dhrubajyoti930.github.io/assets/icon-512.png</url>
+        <title>Dhrubajyoti Lab Global Branding</title>
+        <link>https://dhrubajyoti930.github.io/</link>
+    </image>
+
+    <item>
+        <title>Systema Core: Procedural GPU Engine</title>
+        <link>https://dhrubajyoti930.github.io/projects/systema</link>
+        <dc:creator><![CDATA[Dhrubajyoti]]></dc:creator>
+        <pubDate>Wed, 29 Apr 2026 19:40:00 +0530</pubDate>
+        <guid isPermaLink="true">https://dhrubajyoti930.github.io/projects/systema</guid>
+        
+        <description>Advanced implementation of GPU-accelerated 3D systems. Targeting global deployment in coding and simulation sectors.</description>
+        
+        <media:content url="https://dhrubajyoti930.github.io/assets/sim-render.mp4" fileSize="2048000" type="video/mp4" medium="video" expression="full" duration="60">
+            <media:title type="plain">Systema 3D Engine Preview</media:title>
+            <media:description type="plain">Real-time simulation of procedural physics.</media:description>
+            <media:keywords>WebGL, Three.js, Physics, Dhrubajyoti</media:keywords>
+            <media:thumbnail url="https://dhrubajyoti930.github.io/assets/sim-thumb.jpg" />
+        </media:content>
+
+        <image:image>
+            <image:loc>https://dhrubajyoti930.github.io/assets/sim-thumb.jpg</image:loc>
+            <image:caption>Visual demonstration of Dhrubajyoti's procedural engine.</image:caption>
+            <image:geo_location>India</image:geo_location>
+        </image:image>
+
+        <content:encoded><![CDATA[
+            <div id="technical-summary">
+                <h2>Project: Systema-Core</h2>
+                <p>Developing high-density metadata structures and 3D graphics for global accessibility across India, USA, China, and Japan.</p>
+                <ul>
+                    <li>Technology: Three.js / WebGL / GLSL</li>
+                    <li>Region: Global / Multi-lingual</li>
+                    <li>Status: Production Ready</li>
+                </ul>
+            </div>
+        ]]></content:encoded>
+    </item>
+</channel>
+</rss>
