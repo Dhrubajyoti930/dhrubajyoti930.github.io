@@ -1,0 +1,129 @@
+{
+  "name": "Dhrubajyoti | Advanced Computational & 3D Physics Laboratory",
+  "short_name": "DhrubaDev",
+  "id": "com.dhrubajyoti.lab.v1.0.0",
+  "version": "1.0.0",
+  "description": "A high-fidelity global research environment for real-time 3D physics, procedural generation, and WebGL engineering by Dhrubajyoti.",
+  "lang": "en-IN",
+  "dir": "ltr",
+  "categories": ["developer", "education", "graphics", "utilities"],
+  "iarc_rating_id": "e",
+  
+  "start_url": "/?utm_source=pwa&utm_medium=standalone&utm_campaign=desktop_app",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "minimal-ui", "standalone"],
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "orientation": "any",
+  "prefer_related_applications": false,
+
+  "icons": [
+    {
+      "src": "/assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icon-192-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+
+  "screenshots": [
+    {
+      "src": "/assets/wide-preview.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "3D Physics Engine Dashboard"
+    },
+    {
+      "src": "/assets/mobile-preview.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Interactive Procedural Maze"
+    }
+  ],
+
+  "shortcuts": [
+    {
+      "name": "Launch Physics Sim",
+      "short_name": "Physics",
+      "url": "/physics.html",
+      "description": "Direct access to real-time physics solvers.",
+      "icons": [{ "src": "/assets/physics-icon.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Procedural Maze",
+      "short_name": "Maze",
+      "url": "/maze.html",
+      "description": "Generate a new procedural environment.",
+      "icons": [{ "src": "/assets/maze-icon.png", "sizes": "96x96" }]
+    }
+  ],
+
+  "file_handlers": [
+    {
+      "action": "/index.html",
+      "accept": {
+        "text/javascript": [".js"],
+        "application/json": [".json"],
+        "model/obj": [".obj", ".stl"],
+        "text/plain": [".txt"]
+      }
+    }
+  ],
+
+  "protocol_handlers": [
+    {
+      "protocol": "web+dhruba",
+      "url": "/index.html?uri=%s"
+    }
+  ],
+
+  "share_target": {
+    "action": "/share-processor.html",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  },
+
+  "launch_handler": {
+    "client_mode": "focus-existing"
+  },
+
+  "note_taking": {
+    "new_note_url": "/dev-log.html"
+  },
+
+  "related_applications": [],
+  
+  "widgets": [
+    {
+      "name": "Dhruba Live Stats",
+      "tag": "performance-monitor",
+      "ms_ac_template": "widget-template.json",
+      "data": "widget-data.json",
+      "type": "application/json"
+    }
+  ],
+
+  "handle_links": "preferred",
+  "edge_side_panel": {
+    "preferred_width": 400
+  }
+}
