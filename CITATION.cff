@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you utilize these physics solvers or WebGL systems, please cite this repository as follows."
+
+# [I] PROJECT IDENTITY
+title: "DhrubaDev Lab: Procedural 3D Engines & Physics Solvers"
+abstract: >-
+  A technical ecosystem specializing in Three.js implementations of 
+  procedural maze generation, mobile-optimized survival mechanics via 
+  PeerJS, and kinematic physics engines designed with JEE-Advanced 
+  mathematical rigor.
+version: 1.0.0
+date-released: "2026-04-29"
+license: MIT
+repository-code: "https://github.com/dhrubajyoti930/dhrubajyoti930.github.io"
+url: "https://dhrubajyoti930.github.io/"
+
+# [II] AUTHOR REAL-WORLD DATA
+authors:
+  - family-names: "Chowdhury"
+    given-names: "Dhrubajyoti"
+    email: "chowdhurydhrubajyoti930@gmail.io"
+    affiliation: "Independent Developer & Physics Researcher (JNV Khowai)"
+    city: "Khowai"
+    region: "Tripura"
+    country: IN
+
+# [III] TECHNICAL TAXONOMY
+keywords:
+  - "WebGL"
+  - "Three.js"
+  - "PeerJS Multiplayer"
+  - "Procedural Generation"
+  - "JEE Physics Simulations"
+  - "JNV Khowai Tech"
+
+# [IV] SYSTEM CONTACT
+contact:
+  - name: "Dhrubajyoti Chowdhury"
+    url: "https://github.com/dhrubajyoti930"
